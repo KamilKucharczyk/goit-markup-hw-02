@@ -10,7 +10,7 @@
 }
 body {
   background-color: var(--background-page-color);
-  color: var(--brand-color-black);
+  color: var(--text-color-black);
   font-family: "Roboto", sans-serif;
 }
 .menu {
@@ -19,7 +19,7 @@ body {
 .menu-logo-top {
   color: var(--text-color-black);
   font-family: Raleway;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
@@ -27,13 +27,13 @@ body {
 .menu-logo {
   color: var(--text-color-blue);
   font-family: Raleway;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
 }
 .navigation-link {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--text-color-black);
@@ -44,7 +44,7 @@ body {
   color: var(--text-color-blue);
 }
 .mail {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--text-color-grey);
@@ -55,7 +55,7 @@ body {
   color: var(--text-color-blue);
 }
 .tel {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--text-color-grey);
@@ -70,15 +70,19 @@ body {
 }
 .primary-header {
   color: var(--text-color-white);
+  font-style: normal;
   font-size: 44px;
   line-height: 1.4;
 }
 .solution-order button {
   background-color: var(--color-background-blue);
   color: var(--text-color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
 .feature-list h3 {
-  font-weight: 700px;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -88,7 +92,7 @@ body {
   line-height: 1.7;
 }
 .what-we-do {
-  font-weight: 700px;
+  font-style: normal;
   font-size: 36px;
   line-height: 1.16;
 }
@@ -96,12 +100,13 @@ body {
   background-color: var(--color-background-light-grey);
 }
 .our-team-header {
-  font-weight: 700px;
+  font-style: normal;
   font-size: 36px;
   line-height: 1.16;
 }
 .our-team-list h4 {
-  font-weight: 500px;
+  font-weight: 500;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -116,7 +121,7 @@ body {
 .menu-logo-bottom {
   color: var(--text-color-white);
   font-family: Raleway;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
@@ -127,7 +132,7 @@ body {
   line-height: 1.71;
 }
 .projects h3 {
-  font-weight: 700px;
+  font-style: normal;
   font-size: 18px;
   line-height: 2;
 }
@@ -139,7 +144,7 @@ body {
 .project-button {
   background-color: var(--color-background-light-grey);
   color: var(--text-color-black);
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
 }
